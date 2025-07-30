@@ -1,3 +1,3 @@
 function descargar() {
-    console.log("Hola");
+    window.location.href = "https://github.com/perejilinformatico/NovaIA-.git";
 }
