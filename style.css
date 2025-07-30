@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to top, rgb(3, 0, 19),rgb(17, 18, 83)); 
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 50px;
+    animation: Aparecer 1s;
+}
+h2 {
+    font-size: 25px;
+    animation: Aparecer 5s;
+}
+button {
+    font-size: 25px;
+    height: 100px;
+    width: 190px;
+    font-family: poppins;
+    border-radius: 40px;
+    background: linear-gradient(to top, rgb(17,18,83),rgb(3,0,19));
+    border: 1px solid black;
+    cursor: pointer;
+    animation: Aparecer 8s;
+}
+@keyframes Aparecer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+button:hover {
+     transform: scale(1.3);
+}
